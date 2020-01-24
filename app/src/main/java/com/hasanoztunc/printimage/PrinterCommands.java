@@ -14,5 +14,5 @@ public class PrinterCommands {
     public static final byte[] DEFINE_USER_DEFINED_CHARACTERS={0x1B,0x26,};
     public static final byte[] SELECT_BIT_IMAGE_MOD={0x1B,0x2A,0, (byte) 255,1};
     public static final byte FEED_LINE=0x0A;
-    public static final byte[] ESC_ALIGN_CENTER={0x1B,0x24,63,127};
+    public static final byte[] ESC_ALIGN_CENTER={0x1B,0x61,48};
 }

@@ -33,8 +33,8 @@ public class ListActivity extends AppCompatActivity {
     BluetoothSocket mbtSocket;
     ListView lwDevices;
     ArrayAdapter arrayAdapter;
-    final ArrayList<String> arrayDevice=new ArrayList<String>();
-    final ArrayList<BluetoothDevice> deviceList=new ArrayList<BluetoothDevice>();
+    final ArrayList<String> arrayDevice=new ArrayList<>();
+    final ArrayList<BluetoothDevice> deviceList=new ArrayList<>();
     Context context = this;
     private static OutputStream outputStream;
 
